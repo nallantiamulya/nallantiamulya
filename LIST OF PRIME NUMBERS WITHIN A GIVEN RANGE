@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter a lower number");
+    scanf("%d",&a);
+    printf("enter a upper number");
+    scanf("%d",&b);
+    for(int i=a;i<=b;i++)
+    {
+        for(int j=2;j<a;j++)
+        {
+            if(i%j==0)
+            {
+                c+=1;
+            }
+        }
+        if(c==0)
+        {
+            printf("%d",i);
+        }   
+    }
+}
