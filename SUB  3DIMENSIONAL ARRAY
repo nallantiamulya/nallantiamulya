@@ -1,0 +1,19 @@
+#include<stdio.h>
+void subarray(int a1[],int a2[],int a3[]);
+void subarray(int a1[],int a2[],int a3[]);
+void subarray(int a1[],int a2[],int a3[])
+{
+    int i,res[50];
+    for(i=0;i<5;i++)
+    {
+        res[i]=a1[i]-a2[i]-a2[i];;
+        printf("%d",res[i]);
+    }
+}
+int main()
+{
+    int array1[4]={1,2,3,4};
+    int array2[4]={4,3,2,2};
+    int array3[4]={5,6,7,8};
+    subarray(array1,array2,array3);
+}
