@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    int *p,a=5;
+    p=(int*) malloc(a* sizeof(int));
+    printf("%d",*p);
+    
+}
+
+****************************************************************************************
+
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int *p,*array,n;
+    p=(int*) malloc(n* sizeof(int));
+    printf("%d",&n);
+    for(int i=0;i<n;i++)
+    scanf("%d",array+i);
+    return 0;
+}
