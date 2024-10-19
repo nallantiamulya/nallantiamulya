@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct person
+    {
+        int age;
+    };
+    int main()
+    {
+    struct person Person1;
+    printf("enter the age");
+    scanf("%d",&Person1.age);
+    printf("%d",Person1.age);
+    return 0;
+}
